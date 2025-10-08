@@ -1,0 +1,142 @@
+{
+    "2020-capture24_acc": {
+        "num_workers": 9,
+        "batch_size": 32,
+        "window_setting": "100hz",
+        "MMAP_MODE": true,
+        "TRIM_TRAINING_DATA": true
+    },
+    "2020-GOTOV_acc": {
+        "num_workers": 8,
+        "batch_size": 16,
+        "window_setting": "100hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2019-WISDM_gyro": {
+        "num_workers": 9,
+        "batch_size": 16,
+        "window_setting": "30hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2019-WISDM_acc": {
+        "num_workers": 9,
+        "batch_size": 16,
+        "window_setting": "30hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2015-HHAR_gyro": {
+        "num_workers": 8,
+        "batch_size": 16,
+        "window_setting": "100hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2015-HHAR_acc": {
+        "num_workers": 8,
+        "batch_size": 16,
+        "window_setting": "100hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2014-shoaib_magnetic": {
+        "num_workers": 8,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2014-shoaib_linearAcc": {
+        "num_workers": 7,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2014-shoaib_gyro": {
+        "num_workers": 7,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2014-shoaib_acc": {
+        "num_workers": 7,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2014-mHealth_magnetic": {
+        "num_workers": 7,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2014-mHealth_gyro": {
+        "num_workers": 8,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2014-mHealth_acc": {
+        "num_workers": 9,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2012-realdisp_magnetic": {
+        "num_workers": 7,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2012-realdisp_gyro": {
+        "num_workers": 7,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2012-realdisp_acc": {
+        "num_workers": 7,
+        "batch_size": 16,
+        "window_setting": "50hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2012-PAMAP2_magnetic": {
+        "num_workers": 8,
+        "batch_size": 16,
+        "window_setting": "100hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2012-PAMAP2_gyro": {
+        "num_workers": 9,
+        "batch_size": 16,
+        "window_setting": "100hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2012-PAMAP2_acc": {
+        "num_workers": 9,
+        "batch_size": 16,
+        "window_setting": "100hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    },
+    "2012-OPPORTUNITY_acc": {
+        "num_workers": 8,
+        "batch_size": 16,
+        "window_setting": "30hz",
+        "MMAP_MODE": false,
+        "TRIM_TRAINING_DATA": false
+    }
+}

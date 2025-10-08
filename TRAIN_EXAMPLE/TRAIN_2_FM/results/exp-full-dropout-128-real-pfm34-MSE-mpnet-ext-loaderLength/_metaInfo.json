@@ -1,0 +1,32 @@
+{
+    "exp_name": "exp-full-dropout-128-real-pfm34-MSE-mpnet-ext-loaderLength",
+    "pretrained_cfg": {
+        "model_type": "pfm34",
+        "path2wpf": "../TRAIN_1_SSL/results/g6v4-amsgrad-topK-UD-step0-lr2",
+        "trainMechanism": "exp-coarse-0-pfm34-v2wBERT-loaderLength",
+        "trainStep": 1
+    },
+    "segmentation": 15,
+    "train_datasets": {
+        "2019-WISDM": [
+            "acc",
+            "gyro"
+        ]
+    },
+    "batch_size": 128,
+    "total_steps": 50000,
+    "quantizer_cfg": {
+        "disabled": null
+    },
+    "encoder_learning_rate": 0.001,
+    "warmup_decay_cfg": {
+        "init_lr": 0.0001,
+        "peak_lr": 0.0005,
+        "final_lr": 0.0001,
+        "warm_up_step": 5000,
+        "decay_factor": 0.99993,
+        "AMSGRAD": true
+    },
+    "universal_alignment_loss_style": "MSE",
+    "loss_style": "all"
+}

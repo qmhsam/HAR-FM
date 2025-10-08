@@ -1,0 +1,5 @@
+__pycache__/
+*/__pycache__/
+dataCenter/WRIST
+FINETUNE_EXAMPLE/results*
+FINETUNE_EXAMPLE/EP1_RESULTS

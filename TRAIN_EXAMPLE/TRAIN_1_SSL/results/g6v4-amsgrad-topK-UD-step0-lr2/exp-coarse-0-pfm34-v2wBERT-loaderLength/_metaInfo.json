@@ -1,0 +1,46 @@
+{
+    "exp_name": "exp-coarse-0-pfm34-v2wBERT-loaderLength",
+    "TEST_SAMPLE_TIME_WINDOW": 6000,
+    "segmentation": 15,
+    "train_datasets": {
+        "2019-WISDM": [
+            "acc",
+            "gyro"
+        ]
+    },
+    "batch_size": 128,
+    "total_steps": 200000,
+    "quantizer_cfg": {
+        "codebook_num_groups": 6,
+        "codebook_num_vars": 4,
+        "codebook_vq_dim": 96,
+        "quantizer_training_temp": [
+            2,
+            0.5,
+            0.999993
+        ]
+    },
+    "warmup_decay_cfg": {
+        "init_lr": 1e-05,
+        "peak_lr": 5e-05,
+        "final_lr": 1e-05,
+        "warm_up_step": 20000,
+        "decay_factor": 0.99998,
+        "AMSGRAD": true
+    },
+    "feature_size": 96,
+    "hidden_dim": 96,
+    "use_trainable_mask": true,
+    "shared_layers": false,
+    "cosine_similarity_stride": 2,
+    "cosine_similarity_type": "topk",
+    "mask_cfg": {
+        "max_gram": 3,
+        "p": 0.2,
+        "goal_num_predict": 10
+    },
+    "mlm_weight": 1.0,
+    "cl_weight": 1.0,
+    "valid_mask": null,
+    "LOSS_TYPE": "v2wBERT"
+}
